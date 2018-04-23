@@ -1,3 +1,13 @@
+#subTitle{
+    font-family: 'Exo', sans-serif;
+    font-size: 300%;
+    color: rgb(253, 4, 0);
+}
+#title{
+    font-family: 'Lobster', cursive;
+    font-size: 300%;
+    color: rgb(253, 4, 0);
+}
 #logo{
     margin-left: 5%;
     border-radius: 50%;
@@ -9,8 +19,9 @@
     background-color: #E02E2B;
     margin-left: 8%;
     margin-right: 8%;
-    height: 35px;
     align-content: center;
+    font-size: 120%;
+    margin-top: 3%;
 }
 body {
     background-color: #F6FCDE;
@@ -20,7 +31,7 @@ body {
     background-image: url('./src/images/brackground.jpg');
 }
 #banner{
-    margin-top: 5px;
+    margin-top: 0.4%;
     margin-left: 12%;
     width: 80%;
 }
@@ -38,31 +49,54 @@ body {
     background-color : #DD7B35;
     width: 11%;
 }
-a{
+#navLink{
     color: white;
 }
 #corp{
     background-color: #D18E7C;
-    margin-left: 17%;
-    width: 80%;
+    margin-top: 2%;
+    width: 100%;
 }
 #drugRow{
     
     background-color: #C24400;
 }
 p{
-    border: 5px;
-    border-style: solid;
-    border-color: white; 
-    margin-left: 20%;
-    width: 70%;
-    background-color: #EBDCDC;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
 }
-
 #drug{
     border: 20px;
     border-style: solid;
     border-color: white; 
     width: 210px;
     height: 210px;
+}
+#quote::before{
+    content: "'";
+}
+#quote::after{
+    content: "'";
+}
+#quote{
+    width: 50%;
+    color: black;
+    background-color: #D18E7C
+}
+#drugDesc{
+    margin-left: 3%;
+    float: left;
+    height: 100%;
+    width: 45%;
+    color: white;
+    background-color: rgb(158, 29, 29)
+}
+#drugDescImage {
+    margin-top: 2%;
+    background-color: rgb(158, 29, 29);
+}
+#drugDescTitle{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 300%;
 }
