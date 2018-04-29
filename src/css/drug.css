@@ -28,15 +28,22 @@ body {
     text-align: center;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('./src/images/brackground.jpg');
 }
 #banner{
+    background-color: #E74E16;
     margin-top: 0.4%;
-    margin-left: 12%;
-    width: 80%;
+    margin-left: 21%;
+    width: 70%;
+}
+svg{
+    font-size: 300%;
+    font-family: 'Lobster', cursive;
+    height: 800%;
+    margin: 2%;
 }
 #content{
-    margin: 5%;
+    margin-right: 12%;
+    margin-left: 19%;
 }
 #sideBar{
     margin-top: 5px;
@@ -51,11 +58,6 @@ body {
 }
 #navLink{
     color: white;
-}
-#corp{
-    background-color: #D18E7C;
-    margin-top: 2%;
-    width: 100%;
 }
 #drugRow{
     
@@ -72,31 +74,15 @@ p{
     width: 210px;
     height: 210px;
 }
-#quote::before{
-    content: "'";
-}
-#quote::after{
-    content: "'";
-}
-#quote{
-    width: 50%;
-    color: black;
-    background-color: #D18E7C
-}
 #drugDesc{
     margin-left: 3%;
     float: left;
     height: 100%;
-    width: 45%;
-    color: white;
-    background-color: rgb(158, 29, 29)
+    width: 100%;
+    color: black;
+    border-style: dotted;
 }
 #drugDescImage {
     margin-top: 2%;
     background-color: rgb(158, 29, 29);
-}
-#drugDescTitle{
-    font-family: 'Lobster', cursive;
-    color: white;
-    font-size: 300%;
 }
