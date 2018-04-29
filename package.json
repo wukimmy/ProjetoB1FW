@@ -1,0 +1,19 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "projeto b1fw1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wukimmy/ProjetoB1FW.git"
+  },
+  "author": "Kimmy Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wukimmy/ProjetoB1FW/issues"
+  },
+  "homepage": "https://github.com/wukimmy/ProjetoB1FW#readme"
+}
