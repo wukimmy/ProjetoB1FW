@@ -63,10 +63,6 @@ svg{
     
     background-color: #C24400;
 }
-p{
-    width: 100%;
-    font-family: 'Nunito Sans', sans-serif;
-}
 #drug{
     border: 20px;
     border-style: solid;
@@ -75,14 +71,11 @@ p{
     height: 210px;
 }
 #drugDesc{
-    margin-left: 3%;
-    float: left;
-    height: 100%;
-    width: 100%;
-    color: black;
-    border-style: dotted;
+    margin-left: 5%;
+    border-style: dashed;
 }
-#drugDescImage {
-    margin-top: 2%;
-    background-color: rgb(158, 29, 29);
+footer{
+    
+    background-color: #E0642B;
+    color: white;
 }

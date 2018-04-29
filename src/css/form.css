@@ -1,7 +1,7 @@
 #subTitle{
     font-family: 'Exo', sans-serif;
     font-size: 300%;
-    color: rgb(253, 4, 0);
+    color:#DD7B35;
 }
 #title{
     font-family: 'Lobster', cursive;
@@ -35,6 +35,8 @@ body {
     margin-left: 12%;
     width: 80%;
     height: 80%;
+    
+    color: white;
 }
 #content{
     margin: 5%;
@@ -66,38 +68,8 @@ p{
     width: 100%;
     font-family: 'Nunito Sans', sans-serif;
 }
-#drug{
-    border: 20px;
-    border-style: solid;
-    border-color: white; 
-    width: 210px;
-    height: 210px;
-}
-#quote::before{
-    content: "'";
-}
-#quote::after{
-    content: "'";
-}
-#quote{
-    width: 50%;
-    color: black;
-    background-color: #D18E7C
-}
-#drugDesc{
-    margin-left: 3%;
-    float: left;
-    height: 100%;
-    width: 45%;
+footer{
+    
+    background-color: #E0642B;
     color: white;
-    background-color: rgb(158, 29, 29)
-}
-#drugDescImage {
-    margin-top: 2%;
-    background-color: rgb(158, 29, 29);
-}
-#drugDescTitle{
-    font-family: 'Lobster', cursive;
-    color: white;
-    font-size: 300%;
 }

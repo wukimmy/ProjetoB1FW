@@ -5,7 +5,7 @@
     <title>Droguinhas</title>
     <link href="https://fonts.googleapis.com/css?family=Exo|Lobster|Nunito+Sans|Pacifico" rel="stylesheet">
     <!-- importing fonts -->
-    <link rel="stylesheet" href="../../src/css/drug.css">
+    <link rel="stylesheet" href="../../src/css/form.css">
     <meta charset="UTF=8">
 </head>
 
@@ -59,8 +59,57 @@
     </div>
 
     <div id="banner">
-        <img src="../../src/images/cocktail.jpeg" id ="bannerPic">
+        <img src="../../src/images/cocktail.jpeg" id="bannerPic">
+        <br>
+        <span id="subTitle"> Contribua com o site!</span>
     </div>
+    <div id="content">
+        <form>
+            <div>
+                <label>Nome: </label>
+                <input>
+                <label>E-mail: </label>
+                <input type="email">
+            </div>
+            <br>
+            <div>
+                <span>Deixe seu cometário</span>
+                <br>
+                <textarea name="message" rows="15" cols="105"></textarea>
+            </div>
+            <br>
+            <div>
+                <span> Deixe sua nota</span>
+                <br>
+                <br>
+                <input type="radio" name="score" value="1" > *
+                <input type="radio" name="score" value="2"> **
+                <input type="radio" name="score" value="3"> *** 
+                <input type="radio" name="score" value="4" > ****
+                <input type="radio" name="score" value="5" checked> *****
+            </div>
+            <br>
+            <br>
+            <button type="submit">Enviar resposta</button>
+            <button>Apagar</button>
+            <br>
+            <br>
+        </form>
+    </div>
+    <footer>
+            <hr>
+            <p>
+                Todas as fontes dos conteúdos se encontram abaixo do mesmo.
+            </p>
+            <p>
+                Site feito para o trabalho de reposição de aula da matéria B1FW1
+            </p>
+            <p>
+                Copyright (R)
+                <br>
+                Kimmy Wu - 1765868
+            </p>
+        </footer>
 </body>
 
 </html>
